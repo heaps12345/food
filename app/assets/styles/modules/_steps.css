@@ -1,0 +1,50 @@
+.steps{
+  background:#f4f4f4;
+  font-size: .9rem;
+  @mixin atSmall{
+    font-size: 1.2rem;
+  }
+
+    & img{
+      height: 400px;
+      display: block;
+      margin: 0px auto 0px auto;
+    }
+
+    & ol{
+      counter-reset: item;
+      list-style-type: none;
+      margin-top: 50px;
+
+        & li{
+          display: block;
+          width: 100%;
+          padding-bottom: 45px;
+          line-height: 20px;
+    }
+
+& span{
+    margin-top: 3px;
+    color: $mainBlue;
+    border: 2px solid $mainBlue;
+    display: inline-block;
+    border-radius: 100%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 13px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+      @mixin atSmall{
+        margin-top: -6px;
+        padding: 8px;
+
+
+      }
+    }
+
+
+}
+
+}

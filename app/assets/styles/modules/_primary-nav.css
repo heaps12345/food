@@ -1,0 +1,54 @@
+.primary-nav{
+
+    opacity: 0;
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+    position: relative;
+    z-index: -10;
+    padding-top: 50px;
+    text-align: center;
+
+    @mixin atMedium {
+      float:right;
+      opacity: 1;
+      z-index: 1;
+    padding-top: 0;
+      transform: scale(1);
+    }
+
+
+    & ul{
+      list-style: none;
+
+        & li{
+          display: block;
+          padding-bottom:10px;
+          @mixin atMedium{
+          float: left;
+          margin-left: 40px;
+
+        }
+            & a{
+              text-decoration: none;
+              font-size: 1.25rem;
+              color: #fff;
+              padding:5px 0;
+                &:hover{
+                  border-bottom: 2px solid $mainBlue;
+                }
+            }
+        }
+    }
+
+    &--is-visible {
+      opacity: 1;
+      z-index: 1;
+      transform: scale(1);
+    }
+
+}
+
+.is-current-link{
+  border-bottom: 2px solid $mainBlue;
+
+}

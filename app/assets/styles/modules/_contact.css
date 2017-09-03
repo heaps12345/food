@@ -1,0 +1,52 @@
+.contact{
+  font-size:1.2rem;
+  font-weight: 100;
+
+
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+
+
+  }
+   input::placeholder, select, textarea::placeholder{
+     font-weight:;
+     font-family: 'Lato';
+
+   }
+  input[type=checkbox]{
+    margin:5px 0 20px;
+  }
+
+  & textarea{
+    height: 100px;
+  }
+
+  & label{
+    display: inline-block;
+
+  }
+
+  & option {
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    color: #666666;
+}
+  select{
+    color: #666666;
+
+  }
+
+  & h2{
+    padding-top:40px;
+
+  }
+  &__map{
+    height: 100%;
+  }
+}

@@ -1,0 +1,74 @@
+.plans{
+  background: #f4f4f4;
+
+
+  & h3{
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  &__price{
+    font-size: 3.75rem;
+    display: inline-block;
+    font-weight: 100;
+    color: $mainBlue;
+
+    &--larger{
+      font-size: 4.5rem;
+      font-weight: 300;
+    }
+
+    &--bottom-margin{
+      margin-bottom: 49px !important;
+    }
+
+  }
+  & span{
+    color: $mainBlue;
+    font-weight: 400;
+  }
+  & p{
+    margin: 10px 0;
+
+
+  }
+
+  & i{
+    font-size: .75rem;
+    color: $mainBlue;
+    margin: 20px 20px 0 20px;
+
+  }
+
+  & ul{
+    list-style: none;
+    font-size: 1.2rem;
+      & li:last-child{
+          margin-bottom:20px;
+        }
+      }
+
+
+  &__top{
+    padding-left: 15px;
+    background: #fcfcfc;
+    border-bottom: 1px solid #e8e8e8;
+
+  }
+
+  &__mid{
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+
+  }
+
+  &__bottom{
+    padding: 15px 0;
+    background: #fff;
+    margin-bottom: 100px;
+  }
+
+
+
+}

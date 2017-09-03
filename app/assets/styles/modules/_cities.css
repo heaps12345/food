@@ -1,0 +1,21 @@
+.cities{
+  margin-bottom: 100px;
+  &__item{
+  font-size: 1.33rem;
+  }
+
+  & h3{
+    margin: 10px 0;
+
+  }
+
+  & i{
+    margin: 5px 10px 5px 0;
+    color: $mainBlue;
+  }
+
+  & img{
+    height: 150px;
+    width: 300px;
+  }
+}

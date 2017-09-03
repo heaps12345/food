@@ -1,0 +1,13 @@
+.gallery{
+
+  & img{
+    display:block;
+    height:150px;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    @mixin atMedium{
+      height: 275px;
+    }
+  }
+}

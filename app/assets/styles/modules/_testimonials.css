@@ -1,0 +1,31 @@
+.testimonials{
+
+  font-size: 1.25rem;
+  color: white;
+  background: linear-gradient(rgba(#000, .7), rgba(#000, .7)), 
+  url("/assets/images/testimonials.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+  & i{
+    font-size: 2rem;
+
+  }
+  & blockquote{
+    margin: 10px 0;
+
+  }
+  & img{
+    border-radius: 100%;
+    width: 12%;
+margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  & cite{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+
+}

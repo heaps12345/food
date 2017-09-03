@@ -1,0 +1,62 @@
+.btn{
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px #777 solid;
+  padding: 12px 20px;
+  color: white;
+
+
+  text-decoration: none;
+  background: transparent;
+
+  &:hover, .btn:active,
+  input[type=submit]:hover,
+  input[type=submit]:active {
+
+  border: 1px solid $mainBlue;
+  color: $mainBlue;
+}
+
+  &__plans{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    color: #000;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+
+
+  &__submit{
+    color: #999;
+    padding:12px 30px;
+  }
+
+  &__large-hero{
+    background: $mainBlue;
+    color: #fff;
+    padding:12px 30px;
+    font-size: 1.25rem;
+    border: ;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+      &:hover{
+        background:#2980b9;
+        color: #fff;
+      }
+
+    @mixin atSmall{
+      display: inline;
+  }
+}
+
+&-app img{
+  height: 50px !important;
+  display: inline !important;
+}
+
+}

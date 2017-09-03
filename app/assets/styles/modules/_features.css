@@ -1,0 +1,27 @@
+.features{
+  text-align: center;
+  margin-bottom: 100px;
+  line-height: 1.4;
+
+  & h3{
+    font-weight: 400;
+    margin: 15px 0;
+  }
+
+  &__item{
+    font-weight:100;
+    font-size: 1.1rem;
+     &-img{
+      font-size: 60px;
+      color: $mainBlue;
+      margin-top: 50px;
+      }
+      &-text{
+        text-align: justify;
+
+      }
+
+  }
+
+
+}
