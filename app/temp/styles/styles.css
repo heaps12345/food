@@ -564,9 +564,9 @@ img {
 
 .large-hero{
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .75)), to(rgba(0, 0, 0, .75))),
-  url("assets/images/large-hero.jpg");
+  url("../../assets/images/large-hero.jpg");
   background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)),
-  url("assets/images/large-hero.jpg");
+  url("../../assets/images/large-hero.jpg");
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -854,9 +854,9 @@ img {
   font-size: 1.25rem;
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .7)), to(rgba(0, 0, 0, .7))),
-  url("assets/images/testimonials.jpg");
+  url("../../assets/images/testimonials.jpg");
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url("assets/images/testimonials.jpg");
+  url("../../assets/images/testimonials.jpg");
   background-attachment: fixed;
   background-size: cover;
 
