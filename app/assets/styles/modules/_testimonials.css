@@ -2,8 +2,8 @@
 
   font-size: 1.25rem;
   color: white;
-  background: linear-gradient(rgba(#000, .7), rgba(#000, .7)), 
-  url("/assets/images/testimonials.jpg");
+  background: linear-gradient(rgba(#000, .7), rgba(#000, .7)),
+  url("assets/images/testimonials.jpg");
   background-attachment: fixed;
   background-size: cover;
 

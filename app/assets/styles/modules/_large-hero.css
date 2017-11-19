@@ -1,6 +1,6 @@
 .large-hero{
   background: linear-gradient(rgba(#000, .75), rgba(#000, .75)),
-  url("/assets/images/large-hero.jpg");
+  url("assets/images/large-hero.jpg");
   background-size: cover;
   height: 100vh;
   position: relative;
