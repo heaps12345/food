@@ -10,7 +10,7 @@
 
      &--is-expanded {
        background-color: rgba(0, 0, 0, .8);
-       
+
      }
 
      &__sticky{
@@ -38,11 +38,15 @@
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 2px;
+    margin-right: -60px;
+    @mixin atSmall{
+      margin-right: 0;
+    }
   }
 
   &__logo{
     position:absolute;
-    left: 50%;
+    left: 30%;
     transform: translateX(-50%);
     padding-top: 4px;
     @mixin atMedium{
@@ -97,7 +101,7 @@
       }
 
 
-        @mixin atMedium {
+        @mixin atLarge{
           display: none;
         }
     }

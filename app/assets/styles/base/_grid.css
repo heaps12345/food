@@ -17,13 +17,15 @@
 		&--no-margin{
 				display: grid;
 				grid-template-columns: repeat(12, 1fr);
-				grid-gap: ;
+				grid-gap:0px ;
 
 
 		}
 }
 
-
+.col3-sm{
+  grid-column: span 12;
+}
 
 .col3{
   grid-column: span 12;
